@@ -1,10 +1,11 @@
 # Data Structures In JavaScript
 
 Some basic implementation of data structures in JavaScript.  
-(See it as an exercice and absolutely not for production use).
+(See it as an exercice...)
 
 - Linked List
 - Binary Search Tree
+- Hash Table
 
 ## Linked List
 
@@ -43,4 +44,26 @@ bst.breadthFirstTraversal(log)
 
 console.log(bst.getMinValue())
 console.log(bst.getMaxValue())
+```
+
+## Hash Table
+
+To test the Hash Table :
+
+```
+let myHT = new HashTable(30)
+console.log(myHT.insert('Dean', 'dean@gmail.com'));
+console.log(myHT.insert('Megan', 'megan@gmail.com'));
+console.log(myHT.insert('Dane', 'dane@gmail.com'));
+
+console.log(myHT.getAll());
+```
+
+You will have collision between Dean and Dane since the hash return the same value. They will be stored in the same bucket.
+
+To update a node :
+
+```
+console.log(myHT.insert('John', 'john@gmail.com'));
+console.log(myHT.insert('John', 'johnny@gmail.com'));
 ```
