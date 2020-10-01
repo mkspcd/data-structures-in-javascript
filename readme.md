@@ -19,7 +19,7 @@ The [tree](https://en.wikipedia.org/wiki/Binary_search_tree) satisfies the binar
   <img src="https://raw.githubusercontent.com/mkspcd/data-structures-in-javascript/master/img/bst.png" alt="Tree example" />
 </p>
 
-I worked with the above tree in my tests. To create such a tree:
+I worked with the above tree in my tests. To create such a tree :
 
 ```
 let bst = new BST(50)
